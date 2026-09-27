@@ -502,9 +502,9 @@ textarea { resize: vertical; min-height: 100px; }
    the way a JS-positioned cursor div would have.
    ============================================================= */
 @media (hover: hover) and (pointer: fine) {
-  body { cursor: url("assets/img/cursor-jm.png") 24 24, auto; }
+  body { cursor: url("cursor-jm.png") 24 24, auto; }
   a, button, .btn, input[type="submit"], select {
-    cursor: url("assets/img/cursor-jm.png") 24 24, pointer;
+    cursor: url("cursor-jm.png") 24 24, pointer;
   }
   input:not([type="submit"]), textarea {
     cursor: text; /* keep the real caret where people actually type */
